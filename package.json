@@ -1,17 +1,16 @@
 {
-  "homepage": "https://URK23CS1203.github.io/webtechlabex7",
+  "homepage": "https://URK23CS1203.github.io/web-tech-",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
